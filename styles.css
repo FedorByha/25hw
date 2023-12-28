@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+}
+
+.div {
+    position: absolute;
+}
+
+.first-div {
+    background-color: rgb(242, 142, 124);
+    width: 200px;
+    height: 200px;
+}
+
+.second-div {
+    top: 100px;
+    left: 100px;
+    background-color: rgb(124, 169, 242);
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+
+.third-div {
+    top: 200px;
+    left: 200px;
+    background-color: rgb(136, 242, 124);
+    width: 200px;
+    height: 200px;
+}
